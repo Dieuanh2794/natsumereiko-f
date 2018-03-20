@@ -1,0 +1,57 @@
+PRODUCTS
+  ID
+  no
+  type
+  feature
+  name
+  unsigned_name
+  photo
+  thumb
+  price
+  pro_price
+  content
+  desc
+  hastag_id
+  title
+  keywords
+  description
+  datetime
+  display
+
+PHOTOS
+  ID
+  no
+  product_id
+  photo
+  thumb
+
+TAGS
+  ID
+  name
+  unsigned_name
+  display
+
+BANNER
+  ID
+  no
+  name
+  photo
+  thumb
+  link
+  display
+
+- Cart
+- view product detail
+
+- Clothes
+- Accestories
+- Sneakers
+- Trends
+
+- Logo - ok
+- design - ok
+- AMP
+- hosting
+- SEO
+- Advertise
+- products

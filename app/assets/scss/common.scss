@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Calibri;
+  background: #f2f2f2;
+}
+a {
+  text-decoration: none;
+  transition: .2s ease;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+input::-webkit-input-placeholder {
+  font-family: Calibri;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 400;
+  color: #CCC;
+}
+input::-moz-placeholder {
+  font-family: Calibri;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 400;
+  color: #CCC;
+}
+input:-ms-input-placeholder {
+  font-family: Calibri;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 400;
+  color: #CCC;
+}
+input:-moz-placeholder {
+  font-family: Calibri;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 400;
+  color: #CCC;
+}
+.clear {
+  clear: both;
+  display: block;
+}
+.invisible {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
